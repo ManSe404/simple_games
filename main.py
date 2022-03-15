@@ -4,7 +4,7 @@ from tic_tac_toe import tic_tac_toe as tt
 def pick_a_game():
 
     print("LIST OF GAMES: 1) TIC TAC TOE")
-    acceptable_picks = [1]
+    acceptable_picks = [1, 2]
     pick = input("Please pick a game number: ")
 
     while pick.isdigit() is False or int(pick) not in acceptable_picks:
